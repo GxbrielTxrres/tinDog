@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat-black";
+  font-weight: bolder;
+  font-size: 3.75rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+.rotate {
+  max-width: 100%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/*navigation bar*/
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-family: "Monsterrat-Light";
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.dl-button {
+  margin: 5% 3% 5% 0;
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.fa-circle-check,
+.fa-heart,
+.fa-bullseye {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.the-font {
+  font-family: "montserrat-black, sans-serif";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.other-font {
+  color: #8f8f8f;
+}
+
+.fa-circle-check:hover,
+.fa-bullseye:hover,
+.fa-heart:hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.x {
+  width: 15%;
+  margin: 20px 50px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 50px 100px 25px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.cent {
+  font-size: 75px;
+}
+
+/* NEW SECTION */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 25% 2%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* bottom section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+.spread {
+  padding: 5% 0;
+}
+
+.logo {
+  padding: 1% 0.75%;
+}
+
+p {
+  color: gray;
+}
+
+@media (max-width: 1283px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate {
+    position: static;
+    transform: rotate(0);
+    margin-top: 3%;
+  }
+}
